@@ -8,20 +8,21 @@ body {
 }
 
 .main-content {
-    background-color: rgba(5, 87, 255, 1);
-    width: 1920px;
-    height: 960px;
+    max-width: 1920px;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
     color: black;
 }
 
 .header {
     width: 100%;
+    background-color: rgb(5, 87, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
 .nav {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     height: 132px;
     display: flex;
     justify-content: space-between;
@@ -44,7 +45,6 @@ body {
 
 .title {
     font-size: 20px;
-    margin-right: 195px;
     width: 112px;
 }
 
@@ -52,12 +52,24 @@ body {
     color: white;
     font-size: 18px;
     display: flex;
-    padding-right: 220px;
     list-style-type: none;
 }
 
 .list-item {
     margin-right: 50px;
+}
+
+.blue-section {
+    position: relative;
+    background-color: rgb(5, 87, 255);
+    padding: 195px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-section-content {
+    max-width: 1200px;
+    width: 100%;
 }
 
 .cta-1 {
@@ -73,11 +85,11 @@ body {
 }
 
 .paragraph-title {
-    margin-left: 360px;
     margin-top: 195px;
 }
 
 .paragraph-1 {
+    margin: 0;
     font-size: 16px;
     color: rgba(255, 207, 38, 1);
     letter-spacing: 0.20px;
@@ -92,7 +104,6 @@ body {
 }
 
 .paragraph-2 {
-    margin-left: 360px;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -121,14 +132,17 @@ body {
 
 .group-logo {
     background-color: white;
-    margin-top: 224px;
-    margin-left: 360px;
-    margin-bottom: 0;
     border: solid #FFFFFF;
     border-radius: 10px;
-    width: 1200px;
-    height: 180px;
     position: absolute;
+    bottom: -90px;
+    padding: 65px 85px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo-item {
+    height: 45px;
 }
 
 .list-logo {
@@ -137,7 +151,7 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    padding: 65px 101px 0px 86px;
+    padding: 0;
 }
 
 .group {
@@ -146,6 +160,82 @@ body {
     color: black;
 }
 
-.img-people {
-    margin-top: 314px;
+.img-people {}
+
+.content-men {
+    width: 50%;
+    height: 870px;
+    overflow: hidden;
+}
+
+.group-list {
+    margin-left: 100px;
+}
+
+.title-2 {
+    font-size: 42px;
+}
+
+.list-checked {
+    margin-top: 37px;
+    font-size: 18px;
+    line-height: 56px;
+    letter-spacing: 0.22 px;
+    list-style-type: circle;
+}
+
+.cta-3 {
+    background-color: rgba(255, 207, 38, 1);
+    width: 175px;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 102;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.group-text {
+    color: black;
+}
+
+.border {
+    border: 0 solid white;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 380px;
+    width: 100%;
+    padding: 50px;
+}
+
+.title-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 151px;
+    font-size: 42px;
+    line-height: 48.3px;
+    letter-spacing: 0.5px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.22 px;
+}
+
+.man-1-author {
+    display: flex;
+    margin-top: 47px;
+}
+
+.man-1 {
+    margin-right: 19px;
+}
+
+.group-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 360px;
+    margin-top: 65px;
 }
