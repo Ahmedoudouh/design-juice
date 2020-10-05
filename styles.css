@@ -159,8 +159,6 @@ body {
     color: black;
 }
 
-.img-people {}
-
 .content-men {
     width: 50%;
     height: 870px;
@@ -176,11 +174,12 @@ body {
 }
 
 .list-checked {
+    padding: 0;
     margin-top: 37px;
     font-size: 18px;
     line-height: 56px;
     letter-spacing: 0.22 px;
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 .cta-3 {
@@ -196,6 +195,10 @@ body {
 
 .group-text {
     color: black;
+    margin-top: 151px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 150px;
 }
 
 .border1 {
@@ -208,9 +211,6 @@ body {
 }
 
 .title-3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 151px;
     font-size: 42px;
     line-height: 48.3px;
     letter-spacing: 0.5px;
@@ -235,38 +235,31 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 360px;
     margin-top: 65px;
 }
 
-.group-backgrund {
+.group-background {
     margin-top: 41px;
     font-size: 19px;
     line-height: 56px;
     letter-spacing: 0.23px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 465px;
-    padding-right: 750px;
 }
 
 .background-1 {
-    margin-right: 20px;
-}
-
-.background-2 {
-    margin-right: 20px;
+    margin-right: 74px;
+    margin-left: 97px;
 }
 
 .laptop-group {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .group-paragraph {
-    padding-left: 360px;
-    padding-top: 209px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .para-1 {
@@ -300,7 +293,6 @@ body {
 }
 
 .laptop {
-    padding-top: 129px;
     padding-bottom: 150px;
 }
 
@@ -308,47 +300,27 @@ body {
     background-color: rgba(255, 255, 255, 1);
     max-width: 1920px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .paragraph-a {
-    padding-top: 140px;
+    margin-top: 140px;
     font-size: 42px;
     line-height: 48.3px;
     letter-spacing: 0.5 px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
 }
 
 .paragraph-b {
     margin-top: 24px;
-    display: flex;
-    justify-content: center;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.22px;
-    position: relative;
 }
 
-.images {
-    display: flex;
-}
-
-.image1 {
-    padding-top: 120px;
-    padding-left: 445px;
-    position: absolute;
-}
-
-.image2 {
-    margin-top: 38px;
-    padding-left: 360px;
-    position: absolute;
-}
-
-.image3 {
-    padding-top: 120px;
-    padding-left: 290px;
+.image-group {
+    margin-top: 45px;
 }
 
 .background {
