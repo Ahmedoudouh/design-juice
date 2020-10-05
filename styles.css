@@ -11,7 +11,6 @@ body {
     max-width: 1920px;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    color: black;
 }
 
 .header {
@@ -262,8 +261,6 @@ body {
 
 .laptop-group {
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -304,6 +301,7 @@ body {
 
 .laptop {
     padding-top: 129px;
+    padding-bottom: 150px;
 }
 
 .content {
@@ -414,6 +412,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.22px;
+    cursor: pointer;
 }
 
 .background-blue-2 {
@@ -444,8 +443,9 @@ body {
 .center {
     display: flex;
     justify-content: space-between;
-    padding-left: 360px;
-    padding-right: 360px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .paragraph-c {
@@ -461,4 +461,122 @@ body {
     letter-spacing: 0.16px;
     margin-top: 0px;
     margin-left: 55px;
+}
+
+.group-p {
+    padding-top: 151px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.border-2 {
+    background-color: rgba(255, 255, 255, 1);
+    height: 187px;
+    width: 207px;
+    border-radius: 10px;
+    margin-left: 170px;
+}
+
+.number {
+    padding-top: 50px;
+    padding-left: 89px;
+    font-size: 32px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+}
+
+.p-1 {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+}
+
+.p-2 {
+    padding-top: 23px;
+    font-size: 42px;
+    line-height: 48.3px;
+    letter-spacing: 0.5px;
+}
+
+.cat-6 {
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 207, 38, 1);
+    width: 386px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 48.25px;
+    letter-spacing: 0.24 px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgba(17, 17, 17, 1);
+    max-width: 1920px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 150px;
+}
+
+.texts {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+
+.group-logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.title-5 {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.22;
+}
+
+.code-lab-1 {
+    margin-right: 12px;
+}
+
+.parag {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.22;
+}
+
+.spans {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.group-span {
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.22;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.border-bottom {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.span-1 {
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.22;
+}
+
+.image-1 {
+    margin-right: 20px;
 }
