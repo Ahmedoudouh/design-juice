@@ -390,19 +390,23 @@ body {
 .background-blue-2 {
     background-color: rgba(5, 87, 255, 1);
     max-width: 1920px;
-    width: 100%;
-    max-height: 745px;
     height: 745px;
+    padding: 130px;
+    margin-top: 150px;
+}
+
+.box {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .titel-small {
-    display: flex;
-    justify-content: center;
     font-size: 42px;
-    padding-top: 130px;
     line-height: 48.3px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .border {
@@ -415,9 +419,6 @@ body {
 .center {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
 }
 
 .paragraph-c {
@@ -444,18 +445,17 @@ body {
 
 .border-2 {
     background-color: rgba(255, 255, 255, 1);
-    height: 187px;
-    width: 207px;
     border-radius: 10px;
     margin-left: 170px;
+    width: 207px;
+    padding: 25px;
 }
 
 .number {
-    padding-top: 50px;
-    padding-left: 89px;
     font-size: 32px;
     line-height: 25px;
     letter-spacing: 0.22px;
+    padding-left: 34px;
 }
 
 .p-1 {
